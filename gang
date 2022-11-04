@@ -6,6 +6,8 @@ local MainStuff = Mana:SName("MainStuff") -- Creates a littel information mark i
 
 local Toggles = Win:Tab("Toggles") -- This Creates a Tab on the left Side
 
+local Attack = Win:Tab("Attacks") -- This Creates a Tab on the left Side
+
 local Buttons = Win:Tab("Buttons") -- This Creates a Tab on the left Side
 
 local Slides = Win:Tab("Slides") -- This Creates a Tab on the left Side
@@ -26,6 +28,107 @@ hi = t
       local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="Kaioken"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="fssj"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ssj"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjp"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ssj2"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssj3"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ssj4"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="lssj"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="Mystic"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjg"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ssjberserk"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjb"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ssjr"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjbkk"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="god"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjrage"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ussjb"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="jiren"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="ssjb2"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjr2"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ssjb3"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjr3"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ui"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ussjb2"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ussjr2"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="mui"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="uibreaker"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="omnissj"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="evilssj"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="rainbowui"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ssjui"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ssjbui"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="ui2"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="ui3"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))local a={[1]="omniui"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="halloween"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="StardustBlue"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)local a={[1]="Off"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait()local a={[1]="fplssjg"}game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(a))wait(0.3)
    end
 end)
+
+Attack:Toggle("Disc Spam", false,function(t) -- This is A Toggle
+hz = t
+   while hz do task.wait()
+       local args = {
+    [1] = "Destructo Disc"
+}
+
+game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+wait()
+     for i = 1,1 do
+    wait(cooldown)
+local args = {
+    [1] = false,
+    [2] = game:GetService("Players").LocalPlayer.Character.RightHand,
+    [3] = game:GetService("Players").LocalPlayer.Character.Effects,
+    [4] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [5] = 0,
+    [6] = game:GetService("Players").LocalPlayer.Backpack["Destructo Disc"]
+}
+
+game:GetService("ReplicatedStorage").Events.destructo:FireServer(unpack(args))
+wait()
+mouse = game.Players.LocalPlayer:GetMouse()
+local pos = mouse.Hit
+pos = Vector3.new(pos.X,pos.Y,pos.Z)
+vector = pos
+
+local args = {
+    [1] = true,
+    [2] = game:GetService("Players").LocalPlayer.Character.RightHand,
+    [3] = game:GetService("Players").LocalPlayer.Character.Effects,
+    [4] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [5] = 120,
+    [6] = game:GetService("Players").LocalPlayer.Backpack["Destructo Disc"],
+    [7] = vector
+}
+
+game:GetService("ReplicatedStorage").Events.destructo:FireServer(unpack(args))
+end
+end end)
+
+Attack:Toggle("Super Spirit Bomb", false,function(t) -- This is A Toggle
+hv = t
+   while hv do task.wait()
+     local args = {
+    [1] = "Super Spirit Bomb"
+}
+
+game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+wait()
+local ye   = game.Players.LocalPlayer:GetMouse()
+local anim = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.Players.LocalPlayer.Backpack["Super Spirit Bomb"].LocalScript.Animation)
+anim:play()
+anim:AdjustSpeed(0.675)
+speed = .1
+wait()
+for i = 1,1 do
+    wait(speed) -- makes you wait .25 milliseconds 
+local args = {
+    [1] = false,
+    [2] = "SpiritBomb",
+    [3] = game:GetService("Players").LocalPlayer.Character.Effects,
+    [4] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [5] = 0,
+    [6] = game:GetService("Players").LocalPlayer.Backpack["Super Spirit Bomb"],
+    [7] = vector,
+    [8] = 400,
+    [9] = "Blue",
+    [10] = game:GetService("Players").LocalPlayer.Character.RightHand,
+    [11] = 0.1,
+    [12] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.bigball:FireServer(unpack(args))
+wait()
+mouse = game.Players.LocalPlayer:GetMouse()
+local pos = mouse.Hit
+pos = Vector3.new(pos.X,pos.Y,pos.Z)
+vector = pos
+
+
+local args = {
+    [1] = true,
+    [2] = "SpiritBomb",
+    [3] = game:GetService("Players").LocalPlayer.Character.Effects,
+    [4] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [5] = 0,
+    [6] = game:GetService("Players").LocalPlayer.Backpack["Super Spirit Bomb"],
+    [7] = vector,
+    [8] = 400,
+    [9] = "Blue",
+    [10] = game:GetService("Players").LocalPlayer.Character.RightHand,
+    [11] = 0.1,
+    [12] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.bigball:FireServer(unpack(args))
+end
+anim:stop()
+end end)
 
 Toggles:Toggle("Auto move", false,function(t) -- This is A Toggle
 ht = t
@@ -50,6 +153,66 @@ local color6 = "Yellow"
 local a={[1]="Sphere",[2]=nigger,[3]=color1,[4]=0.1,[5]=amount,[6]=2,[7]=Vector3.new(111111,0.1,1111111),[8]=CFrame.new(0,-6,0)*CFrame.Angles(-0,0,-0),[9]=noob}game:GetService("ReplicatedStorage").Events.TRANSEFFECTS:FireServer(unpack(a))local a={[1]="Sphere",[2]=nigger,[3]=color2,[4]=0.1,[5]=amount,[6]=2,[7]=Vector3.new(111111,0.1,1111111),[8]=CFrame.new(0,-6,0)*CFrame.Angles(-0,0,-0),[9]=noob}game:GetService("ReplicatedStorage").Events.TRANSEFFECTS:FireServer(unpack(a))local a={[1]="Sphere",[2]=nigger,[3]=color3,[4]=0.1,[5]=amount,[6]=2,[7]=Vector3.new(111111,0.1,1111111),[8]=CFrame.new(0,-6,0)*CFrame.Angles(-0,0,-0),[9]=noob}game:GetService("ReplicatedStorage").Events.TRANSEFFECTS:FireServer(unpack(a))local a={[1]="Sphere",[2]=nigger,[3]=color4,[4]=0.1,[5]=amount,[6]=2,[7]=Vector3.new(111111,0.1,1111111),[8]=CFrame.new(0,-6,0)*CFrame.Angles(-0,0,-0),[9]=noob}game:GetService("ReplicatedStorage").Events.TRANSEFFECTS:FireServer(unpack(a))local a={[1]="Sphere",[2]=nigger,[3]=color5,[4]=0.1,[5]=amount,[6]=2,[7]=Vector3.new(111111,0.1,1111111),[8]=CFrame.new(0,-6,0)*CFrame.Angles(-0,0,-0),[9]=noob}game:GetService("ReplicatedStorage").Events.TRANSEFFECTS:FireServer(unpack(a))local a={[1]="Sphere",[2]=nigger,[3]=color6,[4]=0.1,[5]=amount,[6]=2,[7]=Vector3.new(111111,0.1,1111111),[8]=CFrame.new(0,-6,0)*CFrame.Angles(-0,0,-0),[9]=noob}game:GetService("ReplicatedStorage").Events.TRANSEFFECTS:FireServer(unpack(a))
    end
 end)
+
+Attack:Toggle("Stardust Breaker", false,function(t) -- This is A Toggle
+hj = t
+   while hj do task.wait()
+     local args = {
+    [1] = "Stardust Breaker"
+}
+
+game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+wait()
+local ye   = game.Players.LocalPlayer:GetMouse()
+local anim = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.Players.LocalPlayer.Backpack["Stardust Breaker"].LocalScript.Animation)
+anim:play()
+anim:AdjustSpeed(0.675)
+speed = 0.1
+wait()
+for i = 1,1 do
+    wait(speed)
+local args = {
+    [1] = false,
+    [2] = "StardustBreaker",
+    [3] = game:GetService("Players").LocalPlayer.Character.Effects,
+    [4] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [5] = 0,
+    [6] = game:GetService("Players").LocalPlayer.Backpack["Stardust Breaker"],
+    [7] = vector,
+    [8] = 750,
+    [9] = "Blue",
+    [10] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [11] = 0.1,
+    [12] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.bigball:FireServer(unpack(args))
+wait()
+mouse = game.Players.LocalPlayer:GetMouse()
+local pos = mouse.Hit
+pos = Vector3.new(pos.X,pos.Y,pos.Z)
+vector = pos
+
+
+local args = {
+    [1] = true,
+    [2] = "StardustBreaker",
+    [3] = game:GetService("Players").LocalPlayer.Character.Effects,
+    [4] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [5] = 400,
+    [6] = game:GetService("Players").LocalPlayer.Backpack["Stardust Breaker"],
+    [7] = vector,
+    [8] = 750,
+    [9] = "Blue",
+    [10] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+    [11] = 0.1,
+    [12] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.bigball:FireServer(unpack(args))
+end
+anim:stop()
+end end)
 
 Toggles:Toggle("Foru", false, function(t) -- This is A Toggle
 hu = t
