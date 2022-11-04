@@ -146,6 +146,12 @@ game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(args))
 
 end)
 
+Buttons:Button("Rejoin", function()
+local ts = game:GetService("TeleportService")
+local p = game:GetService("Players").LocalPlayer
+ts:Teleport(game.PlaceId, p)
+end)
+
 Buttons:Button("Invis", function() -- This is A Button
 local args = {
     [1] = "Vanish Strike"
