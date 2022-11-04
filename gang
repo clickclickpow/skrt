@@ -27,6 +27,13 @@ hi = t
    end
 end)
 
+Toggles:Toggle("Auto move", false,function(t) -- This is A Toggle
+ht = t
+   while ht do task.wait()
+game.Players.LocalPlayer.Character.Status.Beam.Value = false
+game.Players.LocalPlayer.Character.Status.StopRotate.Value = false
+end end)
+
 Toggles:Toggle("Eye Cancer", false, function(t) -- This is A Toggle
 ho = t
    while ho do task.wait()
@@ -144,12 +151,6 @@ local args = {
 
 game:GetService("ReplicatedStorage").Events.TRANSFORM:FireServer(unpack(args))
 
-end)
-
-Buttons:Button("Rejoin", function()
-local ts = game:GetService("TeleportService")
-local p = game:GetService("Players").LocalPlayer
-ts:Teleport(game.PlaceId, p)
 end)
 
 Buttons:Button("Invis", function() -- This is A Button
