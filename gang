@@ -78,15 +78,15 @@ hv = t
 }
 
 game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
-wait(0.3)
+wait()
 local ye   = game.Players.LocalPlayer:GetMouse()
 local anim = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.Players.LocalPlayer.Backpack["Super Spirit Bomb"].LocalScript.Animation)
 anim:play()
 anim:AdjustSpeed(0.675)
-speed = .1
+
 wait()
 for i = 1,1 do
-    wait(speed) -- makes you wait .25 milliseconds 
+ 
 local args = {
     [1] = false,
     [2] = "SpiritBomb",
