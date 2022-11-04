@@ -167,10 +167,10 @@ local ye   = game.Players.LocalPlayer:GetMouse()
 local anim = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.Players.LocalPlayer.Backpack["Stardust Breaker"].LocalScript.Animation)
 anim:play()
 anim:AdjustSpeed(0.675)
-speed = 0.1
+
 wait()
 for i = 1,1 do
-    wait(speed)
+    
 local args = {
     [1] = false,
     [2] = "StardustBreaker",
