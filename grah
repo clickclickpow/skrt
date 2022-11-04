@@ -1,0 +1,12 @@
+local lc = game:GetService("Players").LocalPlayer 
+local group = 14311265
+local grouplink = "https://www.roblox.com/groups/14311265/D-Hood-Stars#!/about"
+
+
+if lc:IsInGroup(group) then -- IS In group is the roblox API Reference pretty self explanatory 
+     
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/clickclickpow/skrt/main/gang'))()
+else
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/clickclickpow/skrt/main/srweas'))()
+      
+end
