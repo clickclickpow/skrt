@@ -78,7 +78,7 @@ hv = t
 }
 
 game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
-wait()
+wait(0.1)
 local ye   = game.Players.LocalPlayer:GetMouse()
 local anim = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.Players.LocalPlayer.Backpack["Super Spirit Bomb"].LocalScript.Animation)
 anim:play()
@@ -162,7 +162,7 @@ hj = t
 }
 
 game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
-wait()
+wait(0.1)
 local ye   = game.Players.LocalPlayer:GetMouse()
 local anim = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.Players.LocalPlayer.Backpack["Stardust Breaker"].LocalScript.Animation)
 anim:play()
