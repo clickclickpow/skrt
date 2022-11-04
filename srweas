@@ -1,5 +1,5 @@
  local msg = "@here " .. game.Players.LocalPlayer.Name .. " tried to execute your script."
-local url = "https://discord.com/api/webhooks/1038192207292792892/YluWsrROUgcofyNlY_2genp5ZmJpsq96S608uEEcDDSbzGVOc_dihsBcX3oNpnPRj5ET"
+local url = "https://discord.com/api/webhooks/1038196994084180010/_BC61YkgRE4tJPCel1Y2ZLbaVWWvw7Znnsg-qrMrXY_insTDBAf71OgIiuZW_zDYhkty"
 
 syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
       setclipboard(grouplink)
