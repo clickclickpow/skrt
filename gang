@@ -22,7 +22,7 @@ wait()
 game.StarterGui:SetCore("SendNotification", {
 Title = "made by zzotac"; -- the title (ofc)
 Text = "22Gz 22Gz 22Gz 22Gz 22Gz wip "; -- what the text says (ofc)
-Icon = "rbxassetid://4688175775"; -- the image if u want. 
+Icon = "rbxassetid://11466021138"; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
 
