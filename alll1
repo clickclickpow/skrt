@@ -1,0 +1,10 @@
+_G.test = true
+
+while _G.test == true do
+loadstring(game:HttpGet('https://raw.githubusercontent.com/clickclickpow/skrt/main/spot1'))()
+wait(0.1)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/clickclickpow/skrt/main/spot2'))()
+wait(0.1)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/clickclickpow/skrt/main/spot3'))()
+wait(0.1)
+end
