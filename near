@@ -1,18 +1,15 @@
 game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(key)
 	if key == "=" then
-	    loadstring(game:HttpGet('https://raw.githubusercontent.com/clickclickpow/skrt/main/pwall'))()
-	     for i =  1,1 do
-    wait()
-    game.StarterGui:SetCore("SendNotification", {
+	   loadstring(game:HttpGet('https://raw.githubusercontent.com/clickclickpow/skrt/main/pwall'))()
+	   game.StarterGui:SetCore("SendNotification", {
+    Title = "Made by zzotac"; 
+    Text = "Done";
+    Duration = 5; 
+    })
+end
+end)
+game.StarterGui:SetCore("SendNotification", {
     Title = "made by zzotac"; 
     Text = "Press = to bring poeple near you ";
     Duration = 5; 
     })
-end
-
-
-
-end
-
-
-end)
