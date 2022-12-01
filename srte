@@ -1,3 +1,4 @@
+game:GetService("ReplicatedStorage").Events.giveskill:FireServer("Sword of Hope")
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-153, 5181, 698) 
 spawn(function()
 for i = 1,2000000 do
