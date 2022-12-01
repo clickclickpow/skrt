@@ -12,7 +12,7 @@ local new = game:GetService("ReplicatedStorage").Datas[game.Players.LocalPlayer.
 game:GetService("RunService").Stepped:connect(function()
 game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ChildAdded:connect(function(child)
 if child.Name == "ErrorPrompt" and child:FindFirstChild("MessageArea") and child.MessageArea:FindFirstChild("ErrorFrame") then
-game.Players.LocalPlayer:Kick("Strength : " ..new)
+game:GetService("TeleportService"):Teleport(game.PlaceId)
 end
 end)
 end)
