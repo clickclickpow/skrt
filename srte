@@ -1,3 +1,12 @@
+spawn(function()
+getgenv().rejoin = game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ChildAdded:Connect(function(child)
+    if child.Name == 'ErrorPrompt' and child:FindFirstChild('MessageArea') and child.MessageArea:FindFirstChild("ErrorFrame") then
+        game:GetService("TeleportService"):Teleport(game.PlaceId)
+    end
+end)
+end)
+
+
 game:GetService("ReplicatedStorage").Events.giveskill:FireServer("Sword of Hope")
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-153, 5181, 698) 
 wait(0.5)
