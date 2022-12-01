@@ -1,6 +1,6 @@
 game:GetService("ReplicatedStorage").Events.giveskill:FireServer("Sword of Hope")
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-153, 5181, 698) 
-spawn(function()
+wait(0.5)
 for i = 1,2000000 do
 local args = {
     [1] = "SwordOfHope",
@@ -13,4 +13,3 @@ local args = {
 }
 game:GetService("ReplicatedStorage").Events.Blade:FireServer(unpack(args))
 end
-end)
