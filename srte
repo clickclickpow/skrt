@@ -1,55 +1,4 @@
-
-spawn(function()
-while not game.Players.localPlayer do
-    wait()
-end
-game:service'RunService'.Heartbeat:Connect(function()
-    game.Players.LocalPlayer.PlayerGui.Start.Full.start.Text = "Str : "..game:GetService("ReplicatedStorage").Datas[game.Players.LocalPlayer.Name].Strength.Value
-    game.ReplicatedStorage.Events.save:FireServer()
-end)
-Place = 1456080999
-local new = game:GetService("ReplicatedStorage").Datas[game.Players.LocalPlayer.Name].Strength.Value
-game:GetService("RunService").Stepped:connect(function()
-game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ChildAdded:connect(function(child)
-if child.Name == "ErrorPrompt" and child:FindFirstChild("MessageArea") and child.MessageArea:FindFirstChild("ErrorFrame") then
-game:GetService("TeleportService"):Teleport(game.PlaceId)
-end
-end)
-end)
-if game.PlaceId == 1456080999 then
-    repeat 
-        wait() 
-    until game:IsLoaded() and game.Players.LocalPlayer
-    if game.Players.LocalPlayer.Name == "zzotac" then
-        game:service'Players'.LocalPlayer.CharacterAdded:Connect(function()
-            
-        end)
-        game:service'RunService'.Heartbeat:Connect(function()
-            game:GetService("ReplicatedStorage").Events.giveskill:FireServer("Sword of Hope")
-        end)
-        CanRun1 = true
-        game:GetService("ReplicatedStorage").Datas[game.Players.LocalPlayer.Name].Speed.Changed:Connect(function(Val)
-            if Val > 499989 and CanRun1 == true then
-                CanRun1 = false
-                game:GetService("ReplicatedStorage").Events.re:InvokeServer()
-                game.ReplicatedStorage.Events.save:FireServer()
-                wait(5)
-                CanRun1 = true
-            end
-            print(Val)
-        end)
-        wait()
-        game:service'RunService'.Heartbeat:Connect(function()
-lplr = game.Players.LocalPlayer.Name
-game:GetService("Workspace")[lplr].HumanoidRootPart:WaitForChild("Charge"):remove()
-game:GetService("Workspace")[lplr].UpperTorso:WaitForChild("Waist"):remove()
-game:GetService("Workspace")[lplr].LowerTorso:WaitForChild("Root"):remove()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-153, 5181, 698) 
-            game.ReplicatedStorage.Events.lvl:FireServer(game.ReplicatedStorage.Datas[game.Players.LocalPlayer.Name].Speed)
-        end)
-        game:service'RunService'.Heartbeat:Connect(function()
-        game:GetService("ReplicatedStorage").Events.charge:FireServer(game.Players.LocalPlayer.Character.HumanoidRootPart, true)
-        end)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-153, 5181, 698) 
 spawn(function()
 for i = 1,2000000 do
 local args = {
@@ -63,15 +12,4 @@ local args = {
 }
 game:GetService("ReplicatedStorage").Events.Blade:FireServer(unpack(args))
 end
-end)
-end
-end 
-end)
-spawn(function()
-    local vu = game:GetService("VirtualUser")
-game:GetService("Players").LocalPlayer.Idled:connect(function()
-   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-   wait(1)
-   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-end)
 end)
